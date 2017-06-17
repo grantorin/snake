@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="app.js" deffer></script>
+    <title>Snake</title>
+    <style>
+    #matrix {
+        width: 600px;
+        height: 600px;
+        margin: 10px auto;
+        border-top: 1px solid #999;
+        border-left: 1px solid #999;
+    }
+    
+    #matrix .cell {
+        float: left;
+        width: 19px;
+        height: 19px;
+        border-right: 1px solid #999;
+        border-bottom: 1px solid #999;
+        background-color: #FFF;
+        font-size: 12px;
+        text-align: center;
+    }
+    #totalpoints {
+      margin-top: 50px;
+      width: 100px;
+      padding: 3px 10px;
+      font-size: 22px;
+      background-color: #000;
+      color: #FFF;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+    
+    #matrix .cell.snake-body,
+    #matrix .eat {
+        background-color: #000;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="matrix"></div>
+    <p style="text-align: center;">Press Enter to Start!</p>
+</body>
+
+</html>
